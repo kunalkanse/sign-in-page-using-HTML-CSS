@@ -1,0 +1,152 @@
+
+.outer-div{
+
+    border-radius: 2%;
+    height: 90vh;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px black;
+
+    background-color: rgb(242, 240, 240);
+
+    display: flex;
+}
+
+.inner-div-1{
+    height: 100%;
+    width: 50%;
+    
+    border-radius: 2%;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+#sign-in{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#contact-logo{
+    margin-top: -30px;
+    color: black;
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    
+}
+
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input
+{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: rgb(242, 240, 240);
+    color: black;
+}
+
+a>i{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    border: 2px solid grey;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+input::placeholder{
+    text-align: center;
+    color: black;
+}
+
+#forgot{
+    font-size: 17px; 
+    font-weight:200;   
+}
+
+#inner-div1-button{
+    width: 40%;
+
+    border: 2px solid darkred;
+    border-radius: 30px;
+
+    padding: 10px;
+    background-color: rgb(235, 52, 82);
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+/* ************************************************************ */
+
+.inner-div-2{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(235, 52, 82);
+    border-radius: 2%;
+
+    color: white;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#inner-div2-button{
+    width: 40%;
+
+    border: 2px solid white;
+    border-radius: 30px;
+
+    padding: 10px;
+    background-color: rgb(235, 52, 82);
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: white;
+    
+}
+
+#inner-div2-div1{
+    width: 70%;
+    margin-top: 130px;
+}
+
+#hello{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
